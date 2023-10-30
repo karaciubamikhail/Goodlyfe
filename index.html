@@ -17,12 +17,8 @@
                 <img src="./svg/logo.svg" alt="logo-img">
             </a>
             <nav>
-                <a href="" class="header-link">Classess</a>
-                <a href="" class="header-link">Timetable</a>
-                <a href="" class="header-link">Clubs</a>
-                <a href="" class="header-link">Nutrition</a>
-                <a href="" class="header-link">Free Trial</a>
-                <a href="" class="header-link">Search</a>
+                <a href="#bec" class="header-link">Free Trial</a>
+                <a href="#bec" class="header-link">Let's start</a>
             </nav>
         </div>
     </header>
@@ -41,7 +37,7 @@
                 </div>
             </div>
         </section>
-        <section class="become">
+        <section class="become" id="bec">
             <h2 class="become-header">Become more than you are.</h2>
             <p class="become-paragraph">
                 Staying active is great fun and keeps you healthy. 
@@ -140,25 +136,12 @@
                 <div class="footer-item">
                     <h3 class="footer-item__header">Quick Links</h3>
                     <nav class="footer-item_links">
-                        <a href="" class="footer-item__links__link">Classes</a>
-                        <a href="" class="footer-item__links__link">Timetable</a>
-                        <a href="" class="footer-item__links__link">Clubs</a>
-                        <a href="" class="footer-item__links__link">Nutrition</a>
-                        <a href="" class="footer-item__links__link">Free Trial</a>
+                        <a href="#bec" class="footer-item__links__link">Lets start</a>
+                        <a href="#bec" class="footer-item__links__link">Free Trial</a>
                     </nav>
                 </div>
                 <div class="footer-item">
-                    <h3 class="footer-item__header">Guides</h3>
-                    <nav class="footer-item_links">
-                        <a href="" class="footer-item__links__link">Weight Loss</a>
-                        <a href="" class="footer-item__links__link">Strength Gain</a>
-                        <a href="" class="footer-item__links__link">Crossfit</a>
-                        <a href="" class="footer-item__links__link">Washbaord Abs</a>
-                        <a href="" class="footer-item__links__link">Dieting</a>
-                    </nav>
-                </div>
-                <div class="footer-item">
-                    <h3 class="footer-item__header">Guides</h3>
+                    <h3 class="footer-item__header">Contacts</h3>
                     <nav class="footer-item_links">
                         <a href="mailto:admin@goodlyfe.co" class="footer-item__links__link">admin@goodlyfe.co</a>
                         <a href="tel:+889876543210" class="footer-item__links__link">+88 98765 43210</a>
@@ -177,5 +160,24 @@
             </div>       
         </div>    
     </footer>
+    <div class="form_index">
+        <div class="form-wrapper">
+            <img src="./svg/Vector.svg" alt="" class="close-btn">
+            <div class="form-content">
+                <form action="./feedback/form-processing.php" class="form" id="feedback-form">
+                    <div class="form-group">
+                        <input type="name" class="call-input form-control" id="name" placeholder="You name">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="" id="tel form-control" class="call-input" placeholder="Number">
+                    </div>
+                    <div class="form-submit">
+                        <button type="submit" class="call-btn">Order</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+    <script src="./feedback/js/form-processing.js"></script>
 </body>
 </html>
